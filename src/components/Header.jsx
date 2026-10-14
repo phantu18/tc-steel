@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 
-import logoDark from "../assets/logota04-01.png";
+import logoDark from "../assets/logo2.png";
 
 import { FiPhone, FiMenu, FiX } from "react-icons/fi";
 import { LuMail } from "react-icons/lu";
@@ -53,7 +53,7 @@ export default function Header() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
               <FiPhone className="text-red-600 text-2xl" />
-              0868.978.046
+              0862.885.060
             </span>
 
             <span className="flex items-center gap-2">
@@ -63,7 +63,7 @@ export default function Header() {
 
             <span className="flex items-center gap-2">
               <MdOutlineLocationOn className="text-red-600 text-2xl" />
-              Đồng Nai
+              ĐT 741, KP Tiến Hưng 1, Phường Bình Phước, Đồng Nai.
             </span>
 
             <span className="flex items-center gap-2">
@@ -94,7 +94,7 @@ export default function Header() {
               <img
                 src={logoDark}
                 alt="Logo"
-                className="h-10 md:h-11 object-contain"
+                className="h-16 md:h-20 object-contain"
               />
             </Link>
 
@@ -122,7 +122,8 @@ export default function Header() {
             {/* CTA */}
             <div className="hidden lg:flex items-center">
               <Link
-                to="/contact"
+                to="https://zalo.me/0862885060"
+                target="_blank"
                 className="
                   bg-red-600 text-white px-7 py-3 font-semibold
                   transition-all duration-300
@@ -162,7 +163,7 @@ export default function Header() {
 
           <div className="absolute top-0 right-0 h-full w-[85%] max-w-sm bg-white shadow-xl p-6">
             <div className="flex items-center justify-between mb-6">
-              <img src={logoDark} alt="Logo" className="h-9 object-contain" />
+              <img src={logoDark} alt="Logo" className="h-16 object-contain" />
 
               <button
                 className="w-10 h-10  flex items-center justify-center"
@@ -192,7 +193,8 @@ export default function Header() {
               ))}
 
               <Link
-                to="/contact"
+                to="https://zalo.me/0862885060"
+                target="_blank"
                 onClick={() => setMobileOpen(false)}
                 className="
                   mt-4 bg-red-600 text-white px-6 py-3 font-semibold
@@ -202,25 +204,6 @@ export default function Header() {
               >
                 Đặt Hàng Ngay →
               </Link>
-            </div>
-
-            <div className="mt-10 text-sm text-xl space-y-2">
-              <p className="flex items-center gap-2">
-                <FiPhone className="text-red-600" />
-                0868.978.046
-              </p>
-              <p className="flex items-center gap-2">
-                <LuMail className="text-red-600" />
-                satthepta@gmail.com
-              </p>
-              <p className="flex items-center gap-2">
-                <MdOutlineLocationOn className="text-red-600" />
-                Đồng Nai
-              </p>
-              <span className="flex items-center gap-2">
-                <IoTimeOutline className="text-red-600 text-2xl" />
-                T2 - T7: 7:00pm - 5:00am
-              </span>
             </div>
           </div>
         </div>

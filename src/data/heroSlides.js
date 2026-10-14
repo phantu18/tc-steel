@@ -5,7 +5,7 @@ import slide1 from "../assets/pexels-cmrcn-29988967.jpg";
 export const heroSlides = [
   {
     id: 1,
-    title: "Cắt Laser CNC",
+    title: "Laser CNC",
     description:
       "Gia công CNC chính xác theo bản vẽ – Đảm bảo đúng kích thước, đúng kỹ thuật và chất lượng ổn định cho từng sản phẩm.",
     image: slide1,
