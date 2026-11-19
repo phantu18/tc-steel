@@ -4,7 +4,6 @@ import ContactFaq from "../components/ContactFaq";
 export default function ServicesPage() {
   return (
     <>
-      kkkkkk
       <Services />
     </>
   );
