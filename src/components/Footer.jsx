@@ -239,12 +239,6 @@ export default function Footer() {
               </motion.a>
             ))}
           </div>
-
-          <div className="mt-7">
-            <span className="text-xs tracking-[0.15em] uppercase text-black">
-              Quality • Precision • Trust
-            </span>
-          </div>
         </motion.div>
       </motion.div>
 
