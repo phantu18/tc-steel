@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaArrowRightLong, FaCheck } from "react-icons/fa6";
-import imgAboutUs from "../assets/inway-the-laser-cuts-4398315.jpg";
+import imgAboutUs from "../assets/1795149769578_4083931076655783797_4083931076655783797_b5609fa13b50daad923903f55934c200.jpg";
 
 export default function AboutSection() {
   const container = {
